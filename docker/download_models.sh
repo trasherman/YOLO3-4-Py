@@ -3,8 +3,8 @@
 echo "Downloading config files..."
 
 mkdir cfg
-wget -O cfg/coco.data https://drive.google.com/uc?id=1RQ17vb5mBgGeXvTDUTiy-rFteZf6Oqp1
-wget -O cfg/yolov3.cfg https://drive.google.com/uc?id=1LeBYI5jdI9qZCgkdHdY3Z7R1VdFx3_n2
+wget -O cfg/coco.data https://trasherman.imfast.io/darknet/coco.data
+wget -O cfg/yolov3.cfg https://trasherman.imfast.io/darknet/yolov3.cfg
 
 echo "Modify config parameters to enable Testing mode"
 sed -i '/batch=64/c\# batch=64' cfg/yolov3.cfg
@@ -13,7 +13,7 @@ sed -i '/# batch=1/c\batch=1' cfg/yolov3.cfg
 sed -i '/# subdivisions=1/c\subdivisions=1' cfg/yolov3.cfg
 
 mkdir data
-wget -O data/coco.names https://drive.google.com/uc?id=1-6pDj47HOsirHqfo4zpeBNTgJ0UK8yrg
+wget -O data/coco.names https://trasherman.imfast.io/darknet/coco.names
 
 echo "Downloading yolov3 weights"
 mkdir weights
