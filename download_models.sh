@@ -17,4 +17,4 @@ wget -O data/coco.names https://drive.google.com/uc?id=1-6pDj47HOsirHqfo4zpeBNTg
 
 echo "Downloading yolov3 weights"
 mkdir weights
-wget -O weights/yolov3.weights https://drive.google.com/uc?id=1Uf05jc_sEhSdMXfD2lNR0lJhV2TYH-4g
+wget -O weights/yolov3.weights https://trasherman.imfast.io/darknet/yolov3.weights
