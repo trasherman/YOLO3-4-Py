@@ -229,7 +229,7 @@ setup(
   python_requires='>=3.5',
   author='Madhawa Vidanapathirana',
   author_email='madhawavidanapathirana@gmail.com',
-  url="https://github.com/madhawav/YOLO3-4-Py",
+  url="https://github.com/trasherman/YOLO3-4-Py",
   package_dir={"__libdarknet": "__libdarknet"},
   packages=["__libdarknet"],
   include_package_data=True,
