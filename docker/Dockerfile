@@ -47,3 +47,4 @@ RUN download_sample_images.sh
 WORKDIR /YOLO3-4-Py
 ADD ./docker_demo.py /YOLO3-4-Py/docker_demo.py
 CMD ["python3", "docker_demo.py"]
+RUN /bin/bash
